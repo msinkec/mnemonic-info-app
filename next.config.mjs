@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  assetPrefix: isProd ? '/mnemonic-info-app/' : '',
+  output: 'export',
+  basePath: '/mnemonic-info-app',
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = {
