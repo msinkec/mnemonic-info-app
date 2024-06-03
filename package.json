@@ -1,0 +1,26 @@
+{
+  "name": "mnemonic-info-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://msinkec.github.io/mnemonic-info-app",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "gh-pages -d out"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "openspv": "^3.0.29",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5"
+  }
+}
